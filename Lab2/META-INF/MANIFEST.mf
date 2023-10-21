@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: Pokemon.jar Lab2/
+Main-Class: Lab2.Main
+

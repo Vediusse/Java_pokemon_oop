@@ -1,0 +1,15 @@
+name,types,extends,power,accuracy,priority,hits,oppEffects;turns;chance;attack,selfEffects;turns;chance;attack,oppDamage,selfDamage,describe
+Role Play,PSYCHIC,Status,0.0,1.0,0,1,COPY_ABILITY;1;0.2;0.25,null;null;null;null,1.0,null,Копирует способность цели.
+Solar Beam,GRASS,Special,120.0,1.0,-1,1,null;null;null;null,null;null;null;null,null,null,Атака состоящая из двух ходов. Пользователь собирает свет затем выпускает сжатый луч на втором ходу.
+Petal Dance,GRASS,Special,120.0,1.0,-2,2;null,CONFUSE;1;0.2;0.25,null;null;null;null,1.0,null,Пользователь атакует 2-3 хода а затем сбивается с толку.
+Fake Out,NORMAL,Physical,40.0,1.0,2,1,FLINCH;1;0.25;0.1,null;null;null;null,1.0,null,Атака которая бьет первой и заставляет цель дрогнуть. Работает только в первом ходу пользователя в бою.
+Shadow Punch,GHOST,Physical,60.0,1.0,0,1,null;null,null;null;null;null,null,null,Пользователь бросает удар из тени. Эта атака всегда попадает.
+Focus Punch,FIGHTING,Physical,150.0,1.0,-3,1,null;null;null;null,null;null;null;null,null,null,Мощный удар который требует времени на подготовку. Увеличен шанс нанести критический удар.
+Taunt,DARK,Status,0.0,1.0,3,1,Taunt;1;0.1;0.25,null;null;null;null,2.0,null,Заставляет цель не использовать свой последний ход в течение нескольких ходов.
+Swords Dance,NORMAL,Status,0.0,0.0,0,1,null;null;null;null,ADD_ATTACK;1;0.3;0,2.0,1.0,Специальное действие которое резко повышает атакующую характеристику пользователя.
+Light Screen,PSYCHIC,Status,0.0,0,3,1,null;null;null;null,ADD_SPECIAL_DEFENSE;1;0.5;0,1.0,null,Создается чудесная стена из света которая снижает урон от специальных атак в течение пяти ходов.
+Sacred Fire,FIRE,Physical,100.0,0.95,0,1,BURN;1;0.25;0.10,null;null;null;null,null,null,Мощная атака которая может нанести ожог.
+Thunder Wave,ELECTRIC,Status,0.0,0.9,0,1,PARALYZE;1;0.4;0.25,null;null;null;null,1.0,0.75,Слабый электрический разряд направляется в цель. Это вызывает паралич, если попадает.
+
+
+Light Screen;Shadow Punch

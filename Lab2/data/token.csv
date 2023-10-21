@@ -1,0 +1,10 @@
+name,types,hp,att,def,spAtt,spDef,speed,attacks
+Clamperl,WATER,35,64,85,74,55,32,Role Play;Solar Beam;Petal Dance;Fake Out
+Cyndaquil,FIRE,39,52,43,60,50,65,Shadow Punch;Focus Punch;Taunt
+Oddish,GRASS;POISON,45,50,55,75,65,30,Shadow Punch;Focus Punch;Taunt;Swords Dance
+Vibrava,GROUND;DRAGON,50,70,50,50,50,70,Light Screen;Shadow Punch
+Weezing,POISON,65,90,120,85,70,60,Light Screen;Shadow Punch;Sacred Fire
+Umbreon,DARK,95,65,110,60,130,65,Light Screen;Shadow Punch;Sacred Fire;Thunder Wave
+Поляков,POISON,65,90,120,85,70,60,Light Screen;Shadow Punch;Sacred Fire
+Азат,POISON,65,90,120,85,70,60,Light Screen;Shadow Punch;Sacred Fire
+абоба,GRASS;POISON,45,50,55,75,65,30,Shadow Punch;Focus Punch;Taunt;Swords Dance
